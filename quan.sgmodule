@@ -1,12 +1,12 @@
 #!name=Quandz
-#!desc=Crack mọi app premium vip pro bởi PMQ
+#!desc=Quandz Shadowrocket Module
 #!author=Quandz
 #!homepage=https://note3s.top/notes/WM6212,https://note3s.top/notes/NZQQMJ
 #!moduleUrl=https://raw.githubusercontent.com/minhquandz/locketgold_tool/refs/heads/main/Quandz.sgmodule
 #!howtouse=Shadowrocket Quandz
 
 
-Rule]
+[Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com),(PROTOCOL,UDP)),REJECT
 
